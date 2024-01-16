@@ -1,0 +1,34 @@
+site_name: TIL
+site_url: https://roycyt.github.io/til/
+site_description: 📝 The place where I document the things I've learned for future reference.
+site_author: Roy Chen
+
+repo_url: https://github.com/roycyt/til/
+edit_uri: blob/master/docs/
+
+theme:
+  name: mkdocs
+  locale: en
+  highlightjs: true
+  hljs_languages:
+    - yaml
+
+markdown_extensions:
+  - toc:
+      permalink: 
+  - attr_list
+  - def_list
+  - tables
+  - pymdownx.highlight:
+      use_pygments: false
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - callouts
+  - mdx_gh_links:
+      user: mkdocs
+      repo: mkdocs
+  - mkdocs-click
+
+plugins:
+  - search
+  - autorefs
