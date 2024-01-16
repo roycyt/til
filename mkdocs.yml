@@ -1,22 +1,4 @@
 site_name: TIL
-site_url: https://roycyt.github.io/til/
-site_description: 📝 The place where I document the things I've learned for future reference.
-site_author: Roy Chen
-
-repo_url: https://github.com/roycyt/til/
-edit_uri: blob/master/docs/
-
 theme:
-  name: mkdocs
-  locale: en
-  highlightjs: true
-  hljs_languages:
-    - yaml
-
-markdown_extensions:
-  - smarty
-  - toc:
-      permalink: true
-
-plugins:
-  - search
+  name: material
+  language: en
