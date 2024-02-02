@@ -10,3 +10,4 @@
 * [Supatabs - OneTab on Steroids](https://supatabs.com/)
 * [Tabliss](https://tabliss.io/) - A Beautiful New Tab
 * [uBlock Origin](https://chromewebstore.google.com/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm)
+* Feedbro - RSS Reader
