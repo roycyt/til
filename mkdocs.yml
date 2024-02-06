@@ -1,4 +1,9 @@
 site_name: TIL
+
 theme:
   name: material
   language: en
+
+plugins:
+  - blog:
+      blog_dir: .
