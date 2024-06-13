@@ -37,3 +37,12 @@ poetry shell
 ```
 poetry build
 ```
+
+[Operating modes](https://python-poetry.org/docs/basic-usage/#operating-modes)
+
+If you want to use Poetry only for dependency management but not for packaging, you can use the non-package mode:
+
+```
+[tool.poetry]
+package-mode = false
+```
