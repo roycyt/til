@@ -26,6 +26,7 @@ Venv 路徑：
 poetry new poetry-demo
 poetry add click
 poetry add --group dev ruff
+poetry add --group debug debugpy
 poetry remove --group dev ruff
 ```
 
